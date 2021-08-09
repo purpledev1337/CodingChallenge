@@ -1,0 +1,66 @@
+* {
+  font-family: Helvetica;
+}
+
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  padding: 1% 18%;
+}
+
+.blackbox {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  padding: 8% 8% 12%;
+}
+
+img {
+  width: 250px;
+}
+
+header {
+  font-size: 35px;
+  color: limegreen;
+  text-align: center;
+}
+
+nav {
+  background-color: limegreen;
+  text-align: center;
+  padding: 1%;
+}
+
+main {
+  color: white;
+  font-size: 18px;
+}
+
+section div {
+  line-height: 25px;
+}
+
+section div:first-child { /* Nome monopattino + inline per il checkbox */
+  font-size: 25px;
+  display: inline-block;
+  padding-top: 35px;
+}
+
+section div:last-child { /* Barra generica */
+  height: 30px;
+  border-radius: 5px;
+}
+
+.yellowcharge {
+  width: 35%;
+  background-color: orange;
+}
+
+.greencharge {
+  width: 60%;
+  background-color: limegreen;
+}
+
+.redcharge {
+  width: 15%;
+  background-color: red;
+}
